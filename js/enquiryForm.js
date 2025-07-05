@@ -126,7 +126,7 @@ function initEnquiryForm() {
           break;
       }
 
-      const response = await axios.post('http://localhost:5000/api/mail/send-enquiry', formData, {
+      const response = await axios.post('https://api-ziya-academy.onrender.com/api/mail/send-enquiry', formData, {
         headers: {
           'Content-Type': 'application/json'
         }
